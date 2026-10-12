@@ -1,0 +1,30 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "com.localscreenshot/localscreenshot",
+  "title": "localscreenshot",
+  "description": "Screenshot any public web page from 227 countries, with cookie banners and ads hidden.",
+  "version": "1.0.1",
+  "websiteUrl": "https://localscreenshot.com",
+  "repository": {
+    "url": "https://github.com/Sambel/localscreenshot-mcp",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.localscreenshot.com/mcp/free"
+    },
+    {
+      "type": "streamable-http",
+      "url": "https://api.localscreenshot.com/mcp",
+      "headers": [
+        {
+          "name": "Authorization",
+          "description": "Value: Bearer followed by a space and your API key. Create a key free at https://localscreenshot.com/signup, 50 credits, no card.",
+          "isRequired": true,
+          "isSecret": true
+        }
+      ]
+    }
+  ]
+}
