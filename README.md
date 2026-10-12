@@ -23,7 +23,7 @@ It answers `initialize`, `tools/list`, `prompts/list` and `resources/list` witho
 
 ## With your own key
 
-A new account gets 50 credits, no card: [localscreenshot.com/signup](https://localscreenshot.com/signup). Create the key in the dashboard, under Connect.
+A free account gets 50 credits every month, no card: [localscreenshot.com/signup](https://localscreenshot.com/signup). Create the key in the dashboard, under Connect.
 
 ```json
 {
@@ -107,7 +107,7 @@ Full details: [Take a screenshot](https://docs.localscreenshot.com/take).
 ## What it costs
 
 - 1 credit for a screenshot, 2 from a chosen country. A failed screenshot is not charged.
-- 50 credits on a new account, once, no card.
+- 50 free credits every calendar month, no card. Unused credits do not carry over.
 - A free account can send 10 requests a minute and run 2 screenshots at a time.
 - Plans and credit packs: [localscreenshot.com/pricing](https://localscreenshot.com/pricing).
 
