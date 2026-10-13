@@ -1,0 +1,20 @@
+{
+  "name": "localscreenshot",
+  "displayName": "localscreenshot",
+  "version": "1.0.0",
+  "description": "Screenshot API and MCP server for AI agents: capture any public page as PNG, JPEG or PDF, from 227 countries, with cookie banners and ads hidden.",
+  "author": {
+    "name": "Softlogic",
+    "url": "https://localscreenshot.com"
+  },
+  "license": "MIT",
+  "keywords": [
+    "screenshot",
+    "pdf",
+    "mcp",
+    "browser-automation",
+    "web-scraping",
+    "screenshot-api"
+  ],
+  "logo": "assets/logo.png"
+}
