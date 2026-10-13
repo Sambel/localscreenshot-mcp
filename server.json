@@ -2,8 +2,8 @@
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "com.localscreenshot/localscreenshot",
   "title": "localscreenshot",
-  "description": "Screenshot any public web page from 227 countries. Can hide cookie banners and ads.",
-  "version": "1.0.1",
+  "description": "Screenshot API for AI agents. Any public page as image or PDF, banners hidden, 227 countries.",
+  "version": "1.0.2",
   "websiteUrl": "https://localscreenshot.com",
   "repository": {
     "url": "https://github.com/Sambel/localscreenshot-mcp",
