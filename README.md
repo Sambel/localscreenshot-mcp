@@ -21,6 +21,12 @@ Any HTTP MCP client can connect to the free endpoint. Real screenshots, no sign-
 
 It answers `initialize`, `tools/list`, `prompts/list` and `resources/list` without credentials, and gives three tools: a real screenshot of one of three example pages, the list of countries, and the prices. It cannot capture a page of your choice.
 
+## As a plugin
+
+The repository follows the Open Plugins standard, so directory scans find it: `plugin.json` carries the identity, `mcp.json` declares the connection. Both point at the free endpoint above, which means an install works immediately and gives the three demo tools listed below.
+
+To capture a page of your choice through the same plugin, replace the `url` and add the `headers` block in `mcp.json` with the keyed setup in the next section. Nothing else changes, the tools are the same ones, they just stop being limited to the example pages.
+
 ## With your own key
 
 A free account gets 50 credits every month, no card: [localscreenshot.com/signup](https://localscreenshot.com/signup). Create the key in the dashboard, under Connect.
