@@ -1,0 +1,21 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "localscreenshot",
+  "version": "1.0.0",
+  "description": "Screenshot API and MCP server for AI agents: capture any public page as PNG, JPEG or PDF, from 227 countries, with cookie banners and ads hidden.",
+  "author": {
+    "name": "Softlogic",
+    "url": "https://localscreenshot.com"
+  },
+  "homepage": "https://localscreenshot.com",
+  "repository": "https://github.com/Sambel/localscreenshot-mcp",
+  "license": "MIT",
+  "keywords": [
+    "screenshot",
+    "pdf",
+    "mcp",
+    "browser-automation",
+    "web-scraping",
+    "screenshot-api"
+  ]
+}
