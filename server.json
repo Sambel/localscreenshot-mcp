@@ -3,7 +3,7 @@
   "name": "com.localscreenshot/localscreenshot",
   "title": "localscreenshot",
   "description": "Screenshot API for AI agents. Any public page as image or PDF, banners hidden, 227 countries.",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "websiteUrl": "https://localscreenshot.com",
   "repository": {
     "url": "https://github.com/Sambel/localscreenshot-mcp",
@@ -13,18 +13,6 @@
     {
       "type": "streamable-http",
       "url": "https://api.localscreenshot.com/mcp/free"
-    },
-    {
-      "type": "streamable-http",
-      "url": "https://api.localscreenshot.com/mcp",
-      "headers": [
-        {
-          "name": "Authorization",
-          "description": "Value: Bearer followed by a space and your API key. Create a key at https://localscreenshot.com/signup.",
-          "isRequired": true,
-          "isSecret": true
-        }
-      ]
     }
   ]
 }
